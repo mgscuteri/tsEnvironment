@@ -1,0 +1,14 @@
+{
+  "name": "typescriptenv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --build tsconfig.json && node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.3"
+  }
+}
